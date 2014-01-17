@@ -1,0 +1,13 @@
+{    	
+	"manifest_version": 2,
+
+	"name": "Word substitutions",
+	"description": "Regex replacer for words on webpages",
+	"version": "0.2",
+	"content_scripts": [
+		{
+			"matches": ["http://*/*"],
+			"js": ["replace.js"]
+		}
+	]
+}    	
